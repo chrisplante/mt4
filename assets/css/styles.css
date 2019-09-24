@@ -1,0 +1,93 @@
+.card-title1 {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.mycol6 h2 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.mycol6 p {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.mycard {
+     /* margin-top: 2rem!important; */
+     margin-bottom: .1rem!important;
+     background-color: rgba(8, 70, 70, 0.822);
+}
+
+.myimagebg{
+    background: url(img/office4.png);
+    /* background: url(/assets/img/forexpic2.jpg); */
+    height: 80vh;
+    width: auto;
+    margin: -.1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.mycol6 hr {
+    background-color: rgba(216, 222, 175, 0);
+    margin-top: 20rem;
+}
+
+/* .header { 
+    background: url(img/apple.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}*/
+
+.btn-primary{
+    background-color: rgb(8, 70, 70)!important;
+    border-color: black!important;
+}
+
+.indheading {
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .mycol6 h2 {
+        font-size: 2.5rem;
+        
+    }
+    .mycol6 p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mycol6 h2 {
+        font-size: 3.5rem;
+    }
+    .mycol6 p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
